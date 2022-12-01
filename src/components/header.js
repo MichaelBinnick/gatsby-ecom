@@ -4,8 +4,9 @@ import { Link } from "gatsby"
 const Header = ({ siteTitle }) => (
   <header
     style={{
+      background: `#0F1111`,
       margin: `0 auto`,
-      padding: `var(--space-4) var(--size-gutter)`,
+      padding: `var(--space-2) var(--size-gutter)`,
       display: `flex`,
       alignItems: `center`,
       justifyContent: `space-between`,
@@ -14,13 +15,10 @@ const Header = ({ siteTitle }) => (
     <Link
       to="/"
       style={{
-        fontSize: `var(--font-sm)`,
+        fontSize: `var(--font-lg)`,
         textDecoration: `none`,
       }}
     >
-      <img 
-        
-      />
       {siteTitle}
     </Link>
     <img

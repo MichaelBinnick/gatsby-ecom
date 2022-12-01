@@ -39,7 +39,11 @@ const Layout = ({ children }) => {
             fontSize: `var(--font-sm)`,
           }}
         >
-          © {new Date().getFullYear()} &middot; Built with
+          © {new Date().getFullYear()} &middot; Built by
+          {` `}
+          <a href="https://github.com/MichaelBinnick/">Michael Binnick</a>
+          {` `}
+          with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>
