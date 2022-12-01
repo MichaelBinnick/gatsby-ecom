@@ -75,7 +75,7 @@ const IndexPage = () => (
       <StaticImage
         src="../images/logo-700x700.png"
         loading="eager"
-        width={64}
+        width={74}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt=""
