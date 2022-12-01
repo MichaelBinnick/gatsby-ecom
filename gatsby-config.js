@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Getting Started with Gatsby`,
-    description: `A tutorial that goes over Gatsby development`,
+    title: `Selleree`,
+    description: `A fresh produce e-commerce application.`,
     author: `@michaelbinnick`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://selleree.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-image`,
